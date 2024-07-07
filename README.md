@@ -15,3 +15,7 @@ poetry shell
 ```
 python3.11 aplikacja_kliencka.py
 ```
+lub aplikację administratora
+```
+python3.11 aplikacja_administratora.py
+```
