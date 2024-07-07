@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "do-oddania-bazy"
+version = "0.1.0"
+description = "projekt aplikacji"
+authors = ["Hairi43 <tanjiroowo12@gmail.com>"]
+readme = "README.md"
+packages = [{include = "do_oddania_bazy"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+simplejson = "^3.19.2"
+psycopg = "^3.2.1"
+datetime = "^5.5"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
