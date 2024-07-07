@@ -11,7 +11,7 @@ poetry update
 ```
 poetry shell
 ```
-5. Uruchom program za pomocą komendy
+4. Uruchom program za pomocą komendy
 ```
 python3.11 aplikacja_kliencka.py
 ```
